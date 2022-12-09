@@ -24,5 +24,5 @@ You can setup the system with the command: setup-alpine
 
 You may change this message by editing /etc/motd.
 
-Note: The root password need to be be Docker!.
-This is only a sample and will not be maintained.
+Note: The root password need to be be Docker!.  
+__This is a sample and will not be maintained.__
