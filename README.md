@@ -1,13 +1,13 @@
 # TO TEST
 
-docker build -t test .
-docker rm -f test
-docker run -d -p 3000:3000 -p 2222:2222 --name test test
-docker logs test
+docker build -t test .  
+docker rm -f test  
+docker run -d -p 3000:3000 -p 2222:2222 --name test test  
+docker logs test  
 
-## TEST SSH
+## TEST SSH  
 
-ssh root@localhost -p 2222
+ssh root@localhost -p 2222  
 The authenticity of host '[localhost]:2222 ([::1]:2222)' can't be established.
 ED25519 key fingerprint is SHA256:Yg7CbPxn5asJenRbJfhdXutPjCcJjAlpuKtFtZ/5mkM.
 This key is not known by any other names
